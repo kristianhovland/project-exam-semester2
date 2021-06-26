@@ -1,0 +1,24 @@
+.AdminBtn {
+  width: 250px;
+  height: 250px;
+  border: none;
+  border-radius: 0;
+  margin: 20px;
+  margin-top: 150px;
+  font-size: 16px;
+  text-decoration: none;
+  color: $font-color;
+  background: $primary-color;
+  letter-spacing: 2px;
+  text-align: center;
+
+  &:hover {
+    background: $secondary-color;
+    border: none;
+  }
+}
+
+.adminButtons {
+  display: flex;
+  justify-content: center;
+}
